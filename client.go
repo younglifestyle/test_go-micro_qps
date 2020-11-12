@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	hello "github.com/micro/examples/greeter/srv/proto/hello"
-	"github.com/micro/go-micro"
+	"test_go-micro_qps/proto/hello"
+	"github.com/micro/go-micro/v2"
 )
 
 func main() {

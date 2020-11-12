@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	hello "github.com/micro/examples/greeter/srv/proto/hello"
-	"github.com/micro/go-micro"
+	"github.com/micro/go-micro/v2"
+	hello "test_go-micro_qps/proto/hello"
 )
 
 var counter int64
